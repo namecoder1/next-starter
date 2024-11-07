@@ -1,6 +1,12 @@
-const MainLayout = () => {
+import '@/assets/styles/globals.css'
+
+const MainLayout = ({children}) => {
 	return (
-		<div>MainLayout</div>
+		<html lang='it'>
+			<body>
+				{children}
+			</body>
+		</html>
 	);
 };
 

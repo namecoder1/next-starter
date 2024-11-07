@@ -1,6 +1,10 @@
+import SearchForm from "@/components/SearchForm";
+
 const HomePage = () => {
 	return (
-		<div>HomePage</div>
+		<main className='flex items-center justify-center min-h-[90vh]'>
+			<SearchForm />
+		</main>
 	);
 };
 
